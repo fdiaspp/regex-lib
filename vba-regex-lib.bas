@@ -11,7 +11,8 @@ Attribute RegexExtract.VB_ProcData.VB_Invoke_Func = " \n9"
         
     Dim regex As RegExp, matchObject As MatchCollection, result As String
     Set regex = New RegExp
-    
+
+
     ' .Global property gives the ability for object to test all possibilites
     regex.Global = True
     
